@@ -1,0 +1,12 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!--style for TextBlock representing the coordinate names, defintions, titles-->
+    <Style x:Key="TextBlockBase" TargetType="TextBlock">
+        <Setter Property="FontFamily" Value="Bradley Hand ITC"/>
+        <Setter Property="FontSize" Value="15"/>
+        <Setter Property="FontWeight" Value="SemiBold"/>
+    </Style>
+
+
+</ResourceDictionary>

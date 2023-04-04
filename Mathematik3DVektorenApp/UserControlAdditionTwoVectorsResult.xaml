@@ -1,0 +1,92 @@
+﻿<UserControl x:Class="Mathematik3DVektorenApp.UserControlAdditionTwoVectorsResult"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Mathematik3DVektorenApp"
+             mc:Ignorable="d" 
+             Background="{x:Null}"
+             x:Name="resultVector"
+             x:FieldModifier="private"
+             d:DesignHeight="180" d:DesignWidth="170">
+
+
+    <!---Main Border-->
+    <Border Background="{StaticResource BrushBlueHover}" 
+            BorderThickness="2" 
+            BorderBrush="{StaticResource BrushBlue}">
+
+        <StackPanel Margin="10">
+            <TextBlock x:Name="tBlockTitle" 
+                       Text="{Binding ElementName=resultVector,Path=Title}"
+                    Style="{StaticResource TextBlockBase}"/>
+
+            <Separator BorderBrush="Silver" 
+                       BorderThickness="10"
+                       Margin="2"/>
+          
+                <Grid  Margin="10"
+                       HorizontalAlignment="Center">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="auto"
+                                      SharedSizeGroup="TxtBlocksGroup"/>
+                    <ColumnDefinition Width="10"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                    
+                    <!---X value-->
+                    <TextBlock Text="x"
+                               Style="{StaticResource TextBlockBase}">
+                    </TextBlock>
+
+                    <TextBlock Grid.Column="2"
+                               x:Name="tbXResult"
+                               Text="{Binding ElementName=resultVector, 
+                                              Path=VectorResult.X, 
+                                              UpdateSourceTrigger=PropertyChanged, 
+                                              Mode=TwoWay}">
+                    </TextBlock>
+
+                    <!---Y value-->
+                    <TextBlock  Grid.Row="1"
+                                Text="y"
+                                Style="{StaticResource TextBlockBase}">
+                     </TextBlock>
+
+                     <TextBlock  Grid.Row="1" Grid.Column="2"
+                                 x:Name="tbYResult"
+                                 Text="{Binding ElementName=resultVector,
+                                                Path=VectorResult.Y,
+                                                UpdateSourceTrigger=PropertyChanged, 
+                                                Mode=TwoWay}">
+                     </TextBlock>
+                    
+                     <!---Z value-->
+                     <TextBlock Grid.Row="2" 
+                                Text="z"
+                                Style="{StaticResource TextBlockBase}">
+                     </TextBlock>
+
+
+                     <TextBlock Grid.Row="2" Grid.Column="2" 
+                                x:Name="tbZResult"
+                                Text="{Binding ElementName=resultVector,
+                                               Path=VectorResult.Z, 
+                                               UpdateSourceTrigger=PropertyChanged,
+                                               Mode=TwoWay}">
+                      </TextBlock>
+
+            </Grid>
+            
+        </StackPanel>
+        
+    </Border>
+
+</UserControl>
+
