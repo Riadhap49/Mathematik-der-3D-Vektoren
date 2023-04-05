@@ -5,7 +5,7 @@ namespace Mathematik3DVektorenLib.ViewModel
 {
     /// <summary>
     /// Represente our VM class that is between the model and the UI
-    /// because is just about to display the sum of two vectors so we don't need here all methods applied on vectors
+    /// because is just about to display the cross product of two vectors so we don't need here all methods applied on vectors
     /// like in case of that the UI have a menu to choise the operation applied on vectors
     /// </summary>
     public class Mathe3DVektorenViewModel : ViewModelBase
