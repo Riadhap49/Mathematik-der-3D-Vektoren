@@ -59,7 +59,7 @@ namespace Mathematik3DVektorenApp
         }
 
         /// <summary>
-        /// the logic here and same for alle textChanged events is when we define a real vector with right coordinates
+        /// the logic here and same for all textChanged events is when we define a real vector with right coordinates
         /// then we create our vector with those values so it's ready for the operation otherwise, 
         /// we create it but we set  0 value in the wrong coordinate,
         /// that give us with validation more control about operation
