@@ -6,7 +6,7 @@ Some Theorie about 3D Vectors.
    -How should we define a 3D vector?
    -Is the vector immutable or not?
    -What about the hashcode for every vector and how it get build?
-● Some operations applied on 3D vector in a helper class
+● Some operations applied on 3D vector in a helper class.
 ● Helper class for resolving a DependencyProperty.
 ● Validation class specialize the ValidationRule class for validate the user's input. 
 ● Some xaml code define the view with 3 userControls form the main window.
@@ -14,8 +14,8 @@ Some Theorie about 3D Vectors.
 released in one Framework called MaterialDesignThemes.MahApps used for more nice feautures in Design.
 ● Unit-Test methods using MSTest V2.2.10 with some attributes
 [DataTestMethod] [DataRow] [DynamicDataRow]
-  - Extension for Assert class with a method 
-get used by calling the "That" keyword in the Assert structure.
+  - Extension for Assert class with a method get used by calling the "That" keyword in the Assert structure.
 
-REMARQUE: it's about the cross product and NOT about the addition of two vectors :) ( u ll find something like VectorSum or addition dont worry, its the cross product) sorry for my mistake... 
+REMARQUE: it's about the cross product and NOT about the addition of two vectors :) 
+(you'll find something like VectorSum or addition dont worry, its the cross product) sorry for my mistake... 
 
