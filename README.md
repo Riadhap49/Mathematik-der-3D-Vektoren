@@ -17,5 +17,5 @@ released in one Framework called MaterialDesignThemes.MahApps used for more nice
   - Extension for Assert class with a method get used by calling the "That" keyword in the Assert structure.
 
 REMARQUE: it's about the cross product and NOT about the addition of two vectors :) 
-(you'll find something like VectorSum or addition dont worry, its the cross product) sorry for my mistake... 
+(you'll find something like VectorSum or addition dont worry, its the cross product) sorry for my mistake.
 
