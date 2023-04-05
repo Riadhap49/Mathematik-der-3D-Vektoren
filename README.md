@@ -17,3 +17,5 @@ released in one library used for more nice feautures in Design.
   - Extension for Assert class with a method 
 get used by calling the "That" keyword in the Assert structure.
 
+REMARQUE: it # s all about the cross product and NOT about the addition of two vectors :) ( u ll find something like VectorSum or addition dont worry, its the cross product) sorry for my mistake... 
+
