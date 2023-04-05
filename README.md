@@ -10,8 +10,8 @@ Some Theorie about 3D Vectors.
 ● Helper class for resolving a DependencyProperty.
 ● Validation class specialize the ValidationRule class for validate the user's input. 
 ● Some xaml code define the view with 3 userControls form the main window.
-  -Libraries like materialDesign and metro mah
-released in one library used for more nice feautures in Design.
+  -Frameworks like materialDesign and MahApps.Metro
+released in one Framework called MaterialDesignThemes.MahApps used for more nice feautures in Design.
 ● Unit-Test methods using MSTest V2.2.10 with some attributes
 [DataTestMethod] [DataRow] [DynamicDataRow]
   - Extension for Assert class with a method 
