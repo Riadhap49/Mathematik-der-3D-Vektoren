@@ -12,7 +12,7 @@ namespace Mathematik3DVektorenLib.Model
     /// Not immutable: but we could make a copy once it' created then using readonly record struct 
     /// and the "with" expressionbut they still stay reference type!
     /// record are reference type but semanticly have a value based comparaison, it means two vector are equal if they have the same x,y,z coordinates
-    /// but this is just one case of eqaulity. the same (x,y,y) tuple mean that they are 100% aufeinander. 
+    /// but this is just one case of eqaulity. the same (x,y,y) tuple mean that they are 100% on each other. 
     /// Mathematicly two vectors are equal when three conditions are relased:
     /// 1.same || means "parallelism" to proove that we need to check if the middle of the two diagonals is the same 
     /// 2.same direction to proove that we need to check which point in the vector is bigger than the other one: start or end point of the vecor? 
@@ -27,7 +27,7 @@ namespace Mathematik3DVektorenLib.Model
 
     {
 
-        #region Properties of the 3D Vector struct
+        #region Properties of the 3D Vector record struct
         /// <summary>
         ///  Readonly Propereties for the Coordinates of the 3D Vector
         ///  Basicly every 3D vector is build from two 3D points 
